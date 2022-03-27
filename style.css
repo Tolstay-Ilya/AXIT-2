@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #000;
+}
+
+.header__side-bar{
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.header__logo{
+    display: inline;
+     margin-left: 110px;
+    margin-bottom: 80px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.header__side-bar--elements{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+}
+.section__comments{
+    height: 600px;
+}
+.section__comments--title{
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.section__comments--line{
+    width: 64px;
+    height: 2px;
+    border: 1px solid #E72424;
+    background: #E72424;
+}
+
+.section__comments--subtitle{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+
+.comments__blog{
+    max-width: 100%;
+    display:flex;
+}
+
+.testing{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comments__blog--text{
+    padding: 14px;
+    width: 298px;
+    height: 110px;
+    background-color: #E72424;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.comments__blog--photos{
+    width: 70px;
+    height: 70px;
+}
+
+.section__cards--title{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #212121;
+}
+
+.section__cards--line{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 64px;
+    height: 2px;
+    text-align: center;
+    border: 1px solid #E72424;
+}
+
+.section__cards--subtitle{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.card{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+
+
+
+.card__lamp--img{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 30px;
+    background: url('../assets/lamp.png') no-repeat center;
+    object-fit: contain;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+}
+
+.card__keyboard--img{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 30px;
+    background: url('../assets/keyboard.png') no-repeat center;
+    object-fit: contain;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+}
+
+.card__flash--img{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 30px;
+    background: url('../assets/flash.png') no-repeat center;
+    object-fit: contain;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+}
+
+.card__lapm{
+    max-width: 350px;
+    max-height: 225px;
+}
+
+.card__keyboard{
+    max-width: 350px;
+    max-height: 225px;
+}
+
+.card__flash{
+    max-width: 350px;
+    max-height: 225px;
+}
+
+.card--title{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+}
+
+.card--subtitle{
+    margin-top: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+.container__section__design{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+}
+
+.section__design--image{
+    max-width: 100%;
+    min-height: 325px;
+    background: url(../assets/design-image.png);
+    opacity: 0.9;
+}
+
+ .section__design--title{
+     margin-top: 70px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.section__design--line{
+    width: 64px;
+    height: 2px;
+    margin-top: 48px;
+    margin-bottom: 30px;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+}
+
+.section__design--subtitle{
+    margin-bottom: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    }
+
+.section__design--button{
+    width: 135px;
+    height: 42px;
+    border: 1px solid #FFFFFF;
+    background: #fff; /* запасной цвет для старых браузеров */
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+}
+
+.section__design--button-text{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.footer{
+    
+    width: 1400px;
+    height: 101px;
+   background-color: #000000;
+}
+
+.footer-title{
+    margin: 0 auto 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+}   
+.networks {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 23px;
+    width: 317px;
+    margin: auto;
+    text-align: center;
+}
+
+.links {
+    margin-top: 10px;
+    height: 23px;
+    width: 30px;
+    margin-right: 10px;
+    background: url(../assets/society.png) no-repeat;
+    background-position: center;
+    text-align: center;
+    
+}
+
+.facebook {
+    background-position: 9px;
+}
+
+.twitter {
+    background-position: -40px;
+}
+
+.google {
+    background-position: -90px;
+}
+
+.pinterest {
+    background-position: -138px;
+}
+
+.instagram {
+    background-position: -188px;
+}
+
+.stumble-upon {
+    background-position: -242px;
+}
+
+.wifi {
+    background-position: -293px;
+}
